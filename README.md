@@ -11,7 +11,7 @@ Step 4: Open the host machine Linux terminal and type $terraform --version (it w
 
 Step 5: Open the host machine Linux terminal and type $aws configure(enter the AWS_ACCESS_KEY_ID, then the AWS_SECRET_ACCESS_KEY, hit enter if the region is correct otherwise type it(us-west-2), then hit enter again for the output format(these steps will help to test that access to the AWS account is allow, cause to create an aws vpc and the rest of the vpc resources access to the aws account with the right permissions to create resources is required).
 
-Step 6:$git clone https://github.com/IsraelAlonzoMoran/HW1-Terraform-code-to-create-aws-vpc-and-resources.git
+Step 6:$ git clone https://github.com/IsraelAlonzoMoran/HW1-Terraform-code-to-create-aws-vpc-and-resources.git
 
 Step 7: Once the "provider.tf" code is downloaded to the host machine, with $cd go to the download directory, example "$cd /home/alonzo/Documents/DevOpsEngineer/terraform_homework1".
 
