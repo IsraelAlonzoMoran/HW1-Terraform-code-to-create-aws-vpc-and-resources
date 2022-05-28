@@ -11,7 +11,7 @@
 *  Elastic IP
 
 #### The Terraform Template only has a provider.tf file.
-In the terraform_hw1.tf file you are going to find the Terraform code to create an AWS VPC, internet_gateway, 3 public subnets, 3 private subnets, 2 RouteTables (1 public and 1 private), an Elastic IP, NAT Gateway and the respective associations between the resources.
+In the provider.tf file you are going to find the Terraform code to create an AWS VPC, internet_gateway, 3 public subnets, 3 private subnets, 2 RouteTables (1 public and 1 private), an Elastic IP, NAT Gateway and the respective associations between the resources.
 
 Just to show some code from the provider.tf file. 
 
