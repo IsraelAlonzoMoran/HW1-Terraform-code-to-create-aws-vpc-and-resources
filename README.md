@@ -10,10 +10,10 @@
 *  NAT Gateway
 *  Elastic IP
 
-#### The Terraform Template only has a terraform_hw1.tf file.
+#### The Terraform Template only has a provider.tf file.
 In the terraform_hw1.tf file you are going to find the Terraform code to create an AWS VPC, internet_gateway, 3 public subnets, 3 private subnets, 2 RouteTables (1 public and 1 private), an Elastic IP, NAT Gateway and the respective associations between the resources.
 
-Just to show some code from the terraform_hw1.tf file. 
+Just to show some code from the provider.tf file. 
 
 In the code below we have the provider in this case AWS, we are also adding Oregon as the region that we are using for this project (us-west-2).
 
@@ -147,7 +147,7 @@ resource "aws_route_table" "terraform-private-route-table-1" {
 
 ### Finally to test the Terraform Template use the below commands.
 #
-While inside the project directory "terraform_hw1.tf" file:
+While inside the project directory "provider.tf" file:
 
 Type terraform init, terraform init command is used to initialize a working directory containing Terraform configuration files.
 ```bash
@@ -194,7 +194,7 @@ git clone https://github.com/IsraelAlonzoMoran/terraform_hw1.git
 ```
 Step 7: Once the "terraform_hw1" project is downloaded to the host machine, with $cd go to the directory that has the downloaded folder, example "$cd /home/alonzo/Downloads/terraform_hw1".
 
-Step 8: Once in the directory that has the "terraform_hw1.tf" file:
+Step 8: Once in the directory that has the "provider.tf" file:
 
 Type terraform init, terraform init command is used to initialize a working directory containing Terraform configuration files
 ```bash
